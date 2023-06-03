@@ -47,6 +47,7 @@ resource "aws_iam_policy" "manage_bucket" {
           "s3:Get*",
           "s3:List*",
           "s3:PutObject",
+          "s3:DeleteObject",
           "s3:ListMultipartUploadParts",
           "s3:AbortMultipartUpload"
         ]
