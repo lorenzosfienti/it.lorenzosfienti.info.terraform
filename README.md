@@ -49,10 +49,11 @@ backend "s3" {
 
 ## Locals variables
 
-There's two local variables:
+There's three local variables:
 
 - project: Insert a string unique for this project
 - domain: Insert the domain of the project
+- reponame: Insert the name of the repo where is located the frontend project
 
 ## Installation
 
